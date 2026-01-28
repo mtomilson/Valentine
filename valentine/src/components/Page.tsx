@@ -46,9 +46,9 @@ export default function Page() {
         <span className="animate-bounce">💖</span>
       </div>
       <div className="flex justify-center">
-        <h1 className="text-8xl font-['Pacifico'] mt-10 text-red-500">
+        <button className="text-8xl font-['Pacifico'] mt-10 text-red-500" onClick={() => setShow(true)}>
           Valentine's Day!
-        </h1>
+        </button>
       </div>
 
       {show ? <Reasons onLimit={handleLimit} /> : <Ask />}
