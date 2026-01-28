@@ -46,7 +46,7 @@ export default function Page() {
         <span className="animate-bounce">💖</span>
       </div>
       <div className="flex justify-center">
-        <button className="text-8xl font-['Pacifico'] mt-10 text-red-500" onClick={() => setShow(true)}>
+        <button className="text-8xl font-['Pacifico'] mt-10 text-red-500 hover:cursor-pointer" onClick={() => setShow(true)}>
           Valentine's Day!
         </button>
       </div>
